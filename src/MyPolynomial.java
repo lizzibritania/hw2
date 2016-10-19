@@ -1,8 +1,8 @@
 /**
- * Created by Юля on 18.10.2016.
+ * Created by Lizzi on 18.10.2016.
  */
 public class MyPolynomial {
-    double[] coeffs;
+   private double[] coeffs;
 
     public MyPolynomial()
 

@@ -30,5 +30,21 @@ public class test {
         System.out.println(polinom1.add(polinom2).toString());
         System.out.println("composition");
         System.out.println(polinom1.multiply(polinom2).toString());
+
+
+        Ball ball1=new Ball(1,1,1,1,1);
+        System.out.println(ball1.toString());
+        ball1.move();
+        System.out.println(ball1.toString());
+        ball1.reflectHorizontal();
+        ball1.reflectVertical();
+        System.out.println(ball1.toString());
+
+        Container newcontainer=new Container(3,10,3,5);
+        System.out.println(newcontainer.toString());
+        System.out.println(newcontainer.getWidth());
+        System.out.println(newcontainer.getHeight());
+        Ball ball2=new Ball(5,7,1,1,1);
+        System.out.println(newcontainer.collides(ball2));
     }
 }
